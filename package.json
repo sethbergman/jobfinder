@@ -1,0 +1,29 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethbergman/jobfinder.git"
+  },
+  "author": "Seth Bergman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethbergman/jobfinder/issues"
+  },
+  "homepage": "https://github.com/sethbergman/jobfinder#readme",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}

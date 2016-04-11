@@ -1,0 +1,17 @@
+{
+  "name": "jobfinder",
+  "description": "Job finding app",
+  "main": "index.js",
+  "authors": [
+    "Seth Bergman"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6"
+  }
+}
