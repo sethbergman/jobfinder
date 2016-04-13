@@ -19,7 +19,7 @@ app.get('*', function(req, res) {
   res.render('index');
 });
 
-mongoose.connect('mongodb://localhost/jobfinder');
+mongoose.connect('mongodb://jobs:c883beed2b71e3346ad7681ec8a5b817@dokku-mongo-jobs:27017/jobs');
 
 var con = mongoose.connection;
 
