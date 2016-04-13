@@ -28,4 +28,4 @@ con.once('open', function() {
   jobModel.seedJobs();
 });
 
-app.listen(process.env.PORT, process.env.IP);
+app.listen(process.env.PORT | 5000);
