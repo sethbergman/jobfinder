@@ -21,8 +21,7 @@ app.get('*', function(req, res) {
 });
 
 // mongoose.connect('mongodb://localhost/jobfinder');
-mongoose.connect('mongodb://sbergman:austin@ds011281.mlab.com:11281/jobslist');
-// mongoose.connect(process.env.MONGODB_URL);
+mongoose.connect(process.env.MONGODB_URL);
 
 var con = mongoose.connection;
 

@@ -10,8 +10,6 @@ function resetJobs() {
   });
 }
 
-// var connectDB = Promise.promisify(mongoose.connect, mongoose);
-
 describe("get jobs", function(){
 
   var jobs;
