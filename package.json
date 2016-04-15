@@ -1,10 +1,10 @@
 {
   "name": "jobfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic app with API built with MongoDB, Express, Angular and Node",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/sethbergman/jobfinder#readme",
   "dependencies": {
     "angular": "^1.5.3",
+    "bluebird": "^2.0.7",
     "bootstrap": "^3.3.6",
     "express": "^4.13.4",
     "jade": "^1.11.0",
