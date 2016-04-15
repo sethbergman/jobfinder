@@ -10,8 +10,8 @@ app.set('view engine', 'jade');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/api/jobs', function(req, res) {
-    mongoose.model('Job').find({}).exec(function(error, jobsList) {
-      res.send(jobsList);
+    mongoose.model('Job').find({}).exec(function(error, collection) {
+      res.send(collection);
     })
 })
 
