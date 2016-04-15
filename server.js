@@ -20,7 +20,6 @@ app.get('*', function(req, res) {
 });
 
 // mongoose.connect('mongodb://localhost/jobfinder');
-// uncomment the above line for local development
 mongoose.connect('process.env.MONGO_URL');
 
 var con = mongoose.connection;
