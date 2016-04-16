@@ -5,6 +5,8 @@ var jobsData = require("./jobs-data.js");
 
 var app = express();
 
+require("./jobs-service.js")(jobsData,app);
+
 app.set('views', __dirname);
 app.set('view engine', 'jade');
 
@@ -20,8 +22,8 @@ app.get('*', function(req, res) {
   res.render('index');
 });
 
-// mongoose.connect('mongodb://localhost/jobfinder');
-mongoose.connect(process.env.MONGODB_URL);
+mongoose.connect('mongodb://localhost/jobfinder');
+// mongoose.connect(process.env.MONGODB_URL);
 
 
 var con = mongoose.connection;
