@@ -36,5 +36,8 @@
     "karma-mocha": "^0.2.2",
     "mocha": "^2.4.5",
     "supertest": "^1.2.0"
+  },
+  "david": {
+    "ignore": ["bluebird"]
   }
 }

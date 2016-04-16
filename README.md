@@ -4,7 +4,8 @@ Test and Behavior Driven Development - built with MongoDB, Express, Angular and 
 [![Docker Repository on Quay](https://quay.io/repository/sethbergman/jobfinder/status "Docker Repository on Quay")](https://quay.io/repository/sethbergman/jobfinder)
 [![Build Status](https://drone.io/github.com/sethbergman/jobfinder/status.png)](https://drone.io/github.com/sethbergman/jobfinder/latest)
 [![Codeship](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg?maxAge=2592000)](https://github.com/sethbergman/jobfinder)
-[![David](https://img.shields.io/david/strongloop/express.svg?maxAge=2592000)](https://github.com/sethbergman/jobfinder)
+[![Dependency Status](https://david-dm.org/sethbergman/jobfinder.svg?style=flat)](https://david-dm.org/sethbergman/jobfinder)
+
 
 ## Prerequisites
 
@@ -16,7 +17,7 @@ You will need the following software properly installed on your computer.
 
 ### Clone the Project
 ```
-git clone https://github.com/sethbergman/jobfinder.git
+git clone https://github.com/sethbergman/jobfinder.git && cd jobfinder
 ```
 
 ### Install Dependencies
