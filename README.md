@@ -50,7 +50,8 @@ If you are developing locally and you want karma to watch the files for changes 
 
 ### Deployment
 
-This application uses the 12 Factor methodology for building applications which run as a service. Learn more about __<a href="http://12factor.stackriot.com" target="_blank">The Twelve Factors</a>__.
+This application uses the 12 Factor methodology for building applications which run as a service.
+Learn more about __<a href="http://12factor.stackriot.com" target="_blank">The Twelve Factors</a>__.
 
 I use <a href="http://dokku.viewdocs.io/dokku/" target="_blank">dokku</a>, a Docker powered mini-Heroku that I run on my own server. The only environment variable I had to set is the `MONGODB_URL`. It's NEVER a good idea to commit your database connection string into the repository. In my project's root directory, I entered the following in my terminal window.
 
