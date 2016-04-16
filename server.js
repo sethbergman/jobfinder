@@ -4,8 +4,10 @@ var express = require('express');
 var mongoose = require('mongoose');
 var jobModel = require('./models/Job');
 var jobsData = require("./jobs-data.js");
+var favicon = require('serve-favicon');
 
 var app = express();
+app.use(favicon(__dirname + '/public/images/favicon.png'));
 
 require("./jobs-service.js")(jobsData,app);
 
