@@ -1,4 +1,10 @@
+doctype html
+html(lang="en")
+  head
+    title Job Finder
+link(rel='shortcut icon', href='images/favicon.png')
 link(rel='stylesheet', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
+
 
 script(type='text/javascript', src='/bower_components/angular/angular.js')
 script(type='text/javascript', src='/bower_components/angular-resource/angular-resource.js')
@@ -22,3 +28,8 @@ body(ng-app='app')
                 a.list-group-item(href='#', ng-repeat="job in jobs")
                     h4.list-group-item-heading {{ job.title }}
                     p.list-group-item-text {{ job.description }}
+
+#footer
+small
+  center © Copyright 2016
+  center <a href="http://sethbergman.com" target="_blank">Seth Bergman == Software Engineer</a>

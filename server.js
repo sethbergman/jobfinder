@@ -1,3 +1,5 @@
+"use strict";
+
 var express = require('express');
 var mongoose = require('mongoose');
 var jobModel = require('./models/Job');
@@ -25,7 +27,6 @@ app.get('*', function(req, res) {
 // mongoose.connect('mongodb://localhost/jobfinder');
 mongoose.connect(process.env.MONGODB_URL);
 
-
 var con = mongoose.connection;
 
 con.once('open', function() {
@@ -33,4 +34,6 @@ con.once('open', function() {
   jobModel.seedJobs();
 });
 
-app.listen(process.env.PORT | 5000);
+var server = app.listen(process.env.PORT | 5000, function () {
+  console.log('Server running at http://0.0.0.0:' + server.address().port)
+})
