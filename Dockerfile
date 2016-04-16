@@ -1,2 +1,2 @@
 FROM node:5
-RUN npm start
+RUN npm install && bower install
