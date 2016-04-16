@@ -21,11 +21,3 @@ exports.seedJobs = function() {
       }
   })
 }
-
-var jobs = [
-    {title:'Cook', description:'You will be making bagels'},
-    {title:'Waiter', description:'You will be putting food in people'},
-    {title:'Programmer', description:'You will have a fun and challenging life'},
-    {title:'Plumber', description:'You enjoy plumbing'},
-    {title:'Fisherman', description:'You know how to find the perfect fishing spots and enjoy being outdoors'}
-];

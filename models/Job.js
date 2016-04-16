@@ -10,7 +10,7 @@ var jobs = [
     {title:'Cook', description:'You will be making bagels'},
     {title:'Waiter', description:'You will be putting food on tables'},
     {title:'Programmer', description:'You will have a fun and challenging life'},
-    {title:'Plumber', description:'You enjoy plumbing'},
+    {title:'Plumber', description:'You get a kick out of cleaning the pipes'},
     {title:'Fisherman', description:'You know how to find the perfect fishing spots and enjoy being outdoors'}
 ];
 
