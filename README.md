@@ -1,6 +1,8 @@
 # Job Finder
 Test and Behavior Driven Development - built with MongoDB, Express, Angular and Node
 
+[![node](https://img.shields.io/node/v/gh-badges.svg?maxAge=2592000)](https://github.com/sethbergman/jobfinder)
+[![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)](https://github.com/sethbergman/jobfinder)
 [![Dependency Status](https://david-dm.org/sethbergman/jobfinder.svg?style=flat)](https://david-dm.org/sethbergman/jobfinder)
 [![Docker Repository on Quay](https://quay.io/repository/sethbergman/jobfinder/status "Docker Repository on Quay")](https://quay.io/repository/sethbergman/jobfinder)
 [![Codeship](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg?maxAge=2592000)](https://github.com/sethbergman/jobfinder)
