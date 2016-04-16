@@ -1,2 +1,1 @@
 FROM node:5
-EXPOSE 8080
