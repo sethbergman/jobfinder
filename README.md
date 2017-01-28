@@ -1,4 +1,6 @@
 # Job Finder
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/jobfinder.svg)](https://greenkeeper.io/)
 Test and Behavior Driven Development - built with MongoDB, Express, Angular and Node
 
 [![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)](https://github.com/sethbergman/jobfinder)
