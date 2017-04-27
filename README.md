@@ -6,7 +6,6 @@ Test and Behavior Driven Development - built with MongoDB, Express, Angular and 
 [![devDependency Status](https://david-dm.org/sethbergman/jobfinder/dev-status.svg)](https://david-dm.org/sethbergman/jobfinder#info=devDependencies)
 [![Docker Repository on Quay](https://quay.io/repository/sethbergman/jobfinder/status "Docker Repository on Quay")](https://quay.io/repository/sethbergman/jobfinder)
 [![Codeship](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg?maxAge=2592000)](https://github.com/sethbergman/jobfinder)
-[![Build Status](https://drone.io/github.com/sethbergman/jobfinder/status.png)](https://drone.io/github.com/sethbergman/jobfinder/latest)
 
 
 ## Prerequisites
