@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha test/server",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,8 @@
     "jade": "^1.11.0",
     "jquery": "^2.2.3",
     "mongoose": "^4.4.12",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "bower": "^1.7.9",
@@ -42,5 +45,6 @@
     "ignore": [
       "bluebird"
     ]
-  }
+  },
+  "snyk": true
 }
