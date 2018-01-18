@@ -12,7 +12,7 @@
     "url": "git+https://github.com/sethbergman/jobfinder.git"
   },
   "author": "Seth Bergman",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sethbergman/jobfinder/issues"
   },
