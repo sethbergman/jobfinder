@@ -19,24 +19,24 @@
   "homepage": "https://github.com/sethbergman/jobfinder#readme",
   "dependencies": {
     "angular": "^1.5.3",
-    "bluebird": "^2.0.7",
+    "bluebird": "^3.4.7",
     "body-parser": "^1.15.0",
     "bootstrap": "^3.3.6",
     "express": "^4.13.4",
     "jade": "^1.11.0",
-    "jquery": "^2.2.3",
+    "jquery": "^3.1.1",
     "mongoose": "^4.4.12",
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
     "bower": "^1.7.9",
     "chai": "^3.5.0",
-    "karma": "^0.13.22",
+    "karma": "^1.4.0",
     "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^0.2.3",
-    "karma-mocha": "^0.2.2",
-    "mocha": "^2.4.5",
-    "supertest": "^1.2.0"
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
   },
   "david": {
     "ignore": [
